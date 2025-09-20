@@ -60,18 +60,7 @@ Inicializa os serviços, popula com dados de exemplo e demonstra a geração de 
 
 ## 🖼️ Diagrama da Arquitetura
 
-flowchart TD
-    A[Usuário] -->|POST /register| B[API Flask - Validação]
-    B -->|Criptografa senha com bcrypt| C[Banco de Dados]
-    C -->|Usuário registrado| A
-
-    A -->|POST /login| D[API Flask - Verificação]
-    D -->|Confere credenciais| C
-    D -->|Gera Token JWT| E[Usuário recebe Token]
-
-    E -->|GET /protected + Token| F[API Flask - Valida JWT]
-    F -->|Token válido| G[Retorna dados protegidos]
-
+https://www.mermaidchart.com/app/projects/1b83602b-fe83-4fc5-a840-9b5abf8e44b0/diagrams/ae4dc510-9efa-44b4-974a-6f16b5d8228c/share/invite/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb2N1bWVudElEIjoiYWU0ZGM1MTAtOWVmYS00NGI0LTk3NGEtNmYxNmI1ZDgyMjhjIiwiYWNjZXNzIjoiVmlldyIsImlhdCI6MTc1ODQwNjQ2N30.Uxx9Eu2Bg3udHFe-6XbSsZ1oJ_qqdnQ9H_LnPouxB2Y
 
 ---
 
