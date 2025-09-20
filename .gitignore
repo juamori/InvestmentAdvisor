@@ -1,0 +1,15 @@
+# Pastas de compilação do .NET
+bin/
+obj/
+
+# Arquivos do banco de dados SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Arquivos gerados pelo Visual Studio e VS Code
+.vs/
+.vscode/
+*.suo
+*.user
