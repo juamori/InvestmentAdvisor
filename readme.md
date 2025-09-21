@@ -105,6 +105,7 @@ Este projeto é um ponto de partida didático. Algumas melhorias possíveis incl
 
 Projeto desenvolvido como um exemplo prático de arquitetura em camadas em C#.
 
-Feito por Julia Amorim     RM99609
-          Lana Leite       RM551143
-          Matheus Cavasini RM97722
+Feito por:
+- Julia Amorim     RM99609
+- Lana Leite       RM551143
+- Matheus Cavasini RM97722
