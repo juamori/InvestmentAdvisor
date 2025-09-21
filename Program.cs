@@ -12,13 +12,10 @@ class Program
 
     static void Main(string[] args)
     {
-        // 'using' garante que a conexão com o banco será fechada corretamente.
         using (var dbContext = new ApplicationDbContext())
         {
-            // Garante que o arquivo do banco de dados e suas tabelas sejam criados na primeira execução.
             dbContext.Database.EnsureCreated();
 
-            // Inicializa os serviços, passando a conexão com o banco de dados.
             _clienteService = new ClienteService(dbContext);
             _ativoService = new AtivoService(dbContext);
 
